@@ -283,6 +283,31 @@
         .contact-form button:hover {
             background-color: #e67e22;
         }
+
+        /* Botón Flotante de WhatsApp */
+        .btn-whatsapp {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .btn-whatsapp:hover {
+            transform: scale(1.1);
+            background-color: #20ba5a;
+        }
     </style>
 </head>
 <body>
@@ -333,14 +358,3 @@
                     <p>Diseño arquitectónico y modelado 3D de residencia moderna.</p>
                 </div>
             </div>
-            <div class="portfolio-item">
-                <img src="https://unsplash.com" alt="Ingeniería Estructural">
-                <div class="portfolio-overlay">
-                    <h4>Complejo Industrial</h4>
-                    <p>Cálculo estructural, cimentación y supervisión de obra civil.</p>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <img src="https://unsplash.com" alt="Edificio Comercial">
-                <div class="portfolio-overlay">
-                    <h4>Plaza Zitro</h4>
