@@ -1,1 +1,49 @@
+/* Estilos para la sección principal (Hero) */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Estilos para que el menú de navegación se vea profesional */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #ffffff;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+/* Estilo del botón naranja */
+.btn-cotizar {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn-cotizar:hover {
+    background-color: #e68a00;
+}
 
